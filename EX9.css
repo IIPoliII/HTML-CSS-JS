@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+h1 {
+	
+    width: 1080px;
+	height: 100px;
+	color: red;
+	margin-bottom: -17px;
+	margin-top: -18px;
+	line-height: 100px;
+	text-align:right;
+	position: fixed;
+	background-color: black
+}
+#titre {
+	color: red;
+}
+#nav {
+	height: 60px;
+		
+}
+#footer {
+	width: 1080px;
+	height: 100px;
+	background-color: #6287b7;
+	margin-bottom: -17px;
+	margin-top: -18px;
+	line-height: 100px;
+	text-align:center;
+	font-size: 30px;
+	
+}
+
+#content {
+	width: 1080px;
+	text-align: center;
+}
+
+body{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1080px;
+	
+}
+#mediaMenudiv, #contactMenudiv, #competanceMenudiv, #loisirMenudiv {
+    display: block;
+	position: relative;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+	color: black;
+	line-height: 27px;
+	float: left;
+	border-style:groove;
+	border-radius: 10px;
+	border-color: white;
+	text-overflow: inherit;
+	
+	
+	 
+	
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	
+}
+
+#jeSuisqui {
+	background-image:url(../HTML/media/461136230-background-websites1.jpg);
+	margin-top: auto;
+	height:1000px;
+	color: floralwhite;
+	
+}
+body {
+	background-image:url(../HTML/media/paper.gif);
+}
+#jeSuisquititre{
+	color: red;
+	text-align: center;
+	line-height: 400px
+	
+}
+#jeSuisquitexte1, #jeSuisquitexte2 {
+	color: #FDFDFD;
+}
+#competance {
+	background-image:url(../HTML/media/elegant-background-4.jpg);
+	color:white;
+	margin-top: -27px;
+	height: 1000px;
+}
+#listeCompetance {
+	color: white;
+	text-align: left;
+}
+#competanceTitre {
+	line-height: 100px;
+}
+#listeCompetance {
+	font-size: 22px;
+	display: block;
+	line-height: 30px;
+	margin-left: 450px;
+	text-align: left
+}
+#listeLoisir {
+	color: white;
+	display: block;
+	text-align: left;
+	margin-left: 450px;
+	line-height: 30px;
+}
+#loisir {
+	background-image: url(../HTML/media/cool-nature-desktop-backgrounds-4.jpg);
+	height: 1000px;
+	font-size: 22px;
+	margin-top: -27px;
+}
+#loisirTitre {
+	line-height: 100px;
+	color: orangered;
+}
+#contactFond {
+	background-image: url(../HTML/media/contact_banner.jpg);
+	margin-top: -19px
+}
+#contact {
+	line-height: 30px;
+	height: 500px;
+	margin-left: 300px
+}
+#contactTitre {
+	line-height: 100px
+}
+#menu {
+	height: 10px;
+	position: fixed		
+}
+#mediaMenudiv:hover, #contactMenudiv:hover, #competanceMenudiv:hover, #loisirMenudiv:hover {
+	text-decoration: underline;
+	border-color: aqua
+}
+
