@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+	<head>
+	<!-- Created By Poli-->
+		<meta charset="utf-8">
+			<link rel="stylesheet" type="text/css" href="../CSS/EX9.css">
+				<title>EXAMEN</title>
+				<script src="../JAVASCRIPT/jquery.min.js"></script>
+			<script type="text/javascript" src="../JAVASCRIPT/fleche.js"></script>
+		<noscript>BUG NO CONNECTION HEUEUEUUE?</noscript>
+
+	</head>
+
+	<body>
+		<div id="header">
+			<h1>
+				<a id="titre" href="#header">Module 101 - EXAMEN</a>                  
+					</h1>
+						</div>
+							<div id="nav">
+								<div id="menu">
+		  							<div id="mediaMenudiv">
+			  							<a id="mediaMenubutton" href="#jeSuisqui">Qui suis-je?</a>
+											</div>
+												<div id="competanceMenudiv">
+			  									<a id="competancemenuButton" href="#competance">Mes Compétences</a>
+											</div>
+										<div id="loisirMenudiv">
+			  						<a id="loisirmenuButton" href="#loisir">Mes loisirs</a>
+								</div>
+							<div id="contactMenudiv">
+						<a id="contactmenuButton" href="#contact">Contact</a>
+					</div>	
+				</div>			
+			</div>
+			<div id="content">
+				<div id="jeSuisqui">
+					<h2 id="jeSuisquititre"> Je suis qui?</h2>
+						<div id="jeSuisquitexte1">Je m'appelle Poli et je suis fortement interessé par tout ce qui touche
+						l'informatique.</div>
+							<div id="jeSuisquitexte2"> Je préfère toucher au hardware. Ma passion pour l'informatique est principlalement venu des jeux vidéo. <br>
+							D'abord je jouais simplement au jeu puis j'ai eu des idées telles que crée des serveurs pour ces jeux.<br>
+							Avant je faisais ces petits serveurs sur un vieux Toshiba. Mais au fil du temps je me suis de plus en plus intéressé à ceci. <br>
+							Mais le problème c'est que je n'avais pas les moyens de m'acheter un matériel plus puissant et meilleur. <br>
+							Puis à 13 ans j'ai commencé à travailler dans la déchetterie de ma commune. <br>
+							Cette déchèterie a un grand avantage elle recycle le matériel électronique, que j'ai pu récupérer. <br>
+							J'ai travaillé 3 ans là-bas une fois par semaine et chaque semaine je trouvais quelque chose de nouveau. <br>
+							Du coup j'ai réussi à me débrouiller avec tout ce matériel à créer un serveur dédié avec 2 intel Xeon 4 coeur 8 threads à 3.7GHz <br>
+							Pendant ces 3 ans j'avais encore l'école mais en dernière année il fallait bien sûr que je trouve un apprentissage et je me suis orientée <br>
+							dans l'informatique.</div>
+						<br>
+					<br>
+				</div>
+				<div id="competance">
+					<h2 id="competanceTitre"> Mes compétences</h2>
+						<ul id="listeCompetance">
+							<li> 
+								Devloppement :
+							</li>	
+								<ul id="listeDanslistecompetance" type="disc">
+									<li type="circle">HTML</li>
+								<li type="circle">CSS</li>
+								<li type="circle">JAVA</li>
+								<li type="circle">VBA</li>
+								<li type="circle">Unity</li>
+
+								</ul>
+							<li> 
+							Installation de matériel
+							</li>
+						 <li> 
+							Mise en place de réseau d'entreprise
+						 </li> 	
+					 </ul>				
+				</div>
+				<div id="loisir">
+					<h2 id="loisirTitre"> Mes loisirs :</h2>
+					 <ul id="listeLoisir">
+						<li>
+							Informatique :
+						</li>	
+						 <ul id="listeDansliste1" type="disc">
+							<li type="circle">Jeux vidéo</li>
+							<li type="circle">Mise en place de serveurs</li>
+							<li type="circle">Mise en place de réseau</li>				 	
+						 </ul>
+						 <li> 
+							Badminton
+						 </li>
+						 <li> 
+							Natation
+						 </li> 	
+					 </ul>
+				</div>
+			</div>
+			<div id="contactFond">
+			<div id="contact">
+			<form action="mailto:test@gmail.com" method="POST">
+			  <div>
+				<h2 id="contactTitre">Me Contacter :</h2>
+					<label for="liste">Titre :</label>
+						<select name="liste" id="liste">
+							<option value="Monsieur">Monsieur</option>
+								<option value="Madame">Madame</option>
+									<option 		value="Mademoiselle">Mademoiselle</option>
+										</select>
+											<br>
+												<label for="Nom">Nom :</label> <input type="text" id="Nom" name="Nom">
+													<br>
+														<label for="Prénom">Prénom :</label> <input type="text" id="Prénom" name="Prénom">
+															<br>					
+																<label for="demande">Demande :</label> <textarea name="demande" id="demande" rows="2" cols ="30">écrivez votre demande ici</textarea>
+																<br>
+															<label for="email">e-mail :</label> <input type="email" id="email" name="e-mail">
+														<br>
+													<label for="tel">Tél :</label> <input type="tel" pattern="^((\+\d{1,3}(-| )?\(?\d\)?(-| )?\d{1,5})|(\(?\d{2,6}\)?))(-| )?(\d{3,4})(-| )?(\d{4})(( x| ext)\d{1,5}){0,1}$" id="tel" name="tel">
+												<br>
+											<label for="rtel">Répondez moi par téléphone :</label> <input type="radio" name="type" value="tel" id="rtel"> 
+										<br>
+									<label for="rmail">Répondez moi par e-mail :</label><input type="radio" name="type" value="rmail" id="rmail"> 
+								<br>
+							<input type="submit" value="Envoyer">
+						<input type="reset" value="Réinistaliser">
+					</div>
+				</form>
+			</div>
+		</div>
+			<!--
+			<h2>Me Contacter :</h2>
+				<table> 
+					<tr>
+						<td>
+							<form action="mailto:test@gmail.com" method="POST">
+								<div id="contactTexte">
+									<label for="liste">Titre :</label>
+										<br>
+											<label for="Nom">Nom :</label>
+												<br>
+													<label for="Prénom">Prénom :</label>
+														<br>
+															<label for="demande">Demande :</label>
+																<br>
+																<br>
+															<br> 
+														<label for="email">e-mail :</label>
+													<br>
+													<label for="tel">Tél :</label>
+												<br>
+											<label for="rtel">Répondez moi par téléphone :</label> 
+										<br>
+									<label for="rmail">Répondez moi par e-mail :</label>
+								<br>
+							<input type="submit" value="Envoyer">
+						</div>
+							</form> 
+								</td> 
+									<td> 
+										<form action="mailto:test@gmail.com" method="POST">
+											<div id="contactEntree">
+												<select name="listeContact" id="listeContact">
+													<option value="Monsieur">Monsieur</option>
+														<option value="Madame">Madame</option>
+															<option 		value="Mademoiselle">Mademoiselle</option>
+																</select>
+																	<br>
+																		<input type="text" id="Nom" name="Nom">
+																			<br>
+																				<input type="text" id="Prénom" name="Prénom">
+																					<br>
+																					<textarea name="demande" id="demande" rows="2" cols ="30">écrivez votre demande ici</textarea>
+																				<br>
+																			<input type="email" id="email" name="e-mail">
+																		<br>
+																	<input type="tel" pattern="^((\+\d{1,3}(-| )?\(?\d\)?(-| )?\d{1,5})|(\(?\d{2,6}\)?))(-| )?(\d{3,4})(-| )?(\d{4})(( x| ext)\d{1,5}){0,1}$" id="tel" name="tel">
+																<br>
+															<input type="radio" name="type" value="tel" id="rtel"> 
+														<br>
+													<input type="radio" name="type" value="rmail" id="rmail"> 
+												<br>
+											<input type="reset" value="Réinistaliser">
+										</div>
+									</form> 
+								</td>
+							</tr>
+						</table> 
+					</div>-->
+			<div id="footer">
+				<span>
+					Poli - 22.06.2017
+				</span>
+			</div>
+	</body>
+</html>
